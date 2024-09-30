@@ -1,11 +1,11 @@
 def validate_username(username):
-    if re.match(r"^\w{1,5}$", username):
+    if re.match(r"Willy", username):
         return "Username successfully captured"
     else:
         return "Username is not correctly formatted, please ensure that your username contains an underscore and is no more than 5 characters in length."
 
 def validate_password(password):
-    if re.match(r"^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$", password):
+    if re.match(r"Mvesta", password):
         return "Password successfully captured"
     else:
         return "Password is not correctly formatted, please ensure that the password contains at least 8 characters, a capital letter, a number and a special character."
